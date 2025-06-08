@@ -1,69 +1,98 @@
-# Welcome to your Lovable project
+# 🛒 Bazaar Dreams – Full-Stack E-commerce Platform
 
-## Project info
+**Bazaar Dreams** is a full-stack e-commerce application designed to provide a seamless shopping experience. It combines a modern React frontend with a backend API, offering product browsing, user authentication, and order management capabilities.
 
-**URL**: https://lovable.dev/projects/e94f16fd-ffdf-4e15-8e1c-4661ed0a6140
+---
 
-## How can I edit this code?
+## 🌟 Project Overview
 
-There are several ways of editing your application.
+* 🛍️ User-friendly storefront built with **React** and **shadcn/ui**
+* ⚡ Powered by **Vite** for fast development and hot reload
+* 🎨 Styled with **Tailwind CSS** for a sleek and responsive design
+* 🔗 Backend API with Node.js/Express handling routes, models, and middleware
+* 🔐 Supports user authentication, product management, and secure checkout flows
+* 💻 Designed to be extendable for integration with payment gateways and inventory systems
 
-**Use Lovable**
+---
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e94f16fd-ffdf-4e15-8e1c-4661ed0a6140) and start prompting.
+## 🧰 Tech Stack
 
-Changes made via Lovable will be committed automatically to this repo.
+| Layer     | Technologies                                     |
+| --------- | ------------------------------------------------ |
+| Frontend  | React, TypeScript, Vite, Tailwind CSS, shadcn/ui |
+| Backend   | Node.js, Express, MongoDB (or your DB of choice) |
+| Dev Tools | Bun, ESLint, PostCSS                             |
 
-**Use your preferred IDE**
+---
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+## 🚀 Getting Started
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### Clone and Run Locally
 
-Follow these steps:
+1. **Clone the repo**
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+```bash
+git clone https://github.com/rxymitchy/bazaar-dreams.git
+cd bazaar-dreams
+```
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+2. **Install dependencies**
 
-# Step 3: Install the necessary dependencies.
-npm i
+```bash
+npm install
+```
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+3. **Set up your environment variables**
+
+Create a `.env` file in the root directory (refer to `.env.example` if provided) for backend configuration.
+
+4. **Start the development server**
+
+```bash
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🗂️ Project Structure
 
-**Use GitHub Codespaces**
+```
+bazaar-dreams/
+├── backend/               # Backend API code (routes, models, middleware)
+├── frontend/              # React frontend app (components, pages)
+├── public/                # Static assets
+├── .env                   # Environment variables
+├── package.json
+├── vite.config.js         # Frontend build config
+├── tailwind.config.js     # Styling config
+└── README.md
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🔧 Development Tips
 
-This project is built with .
+* Frontend hot reload available via Vite on `http://localhost:5173`
+* Backend server restarts automatically on changes
+* Use Postman or similar tools to test API endpoints during backend development
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 📦 Deployment
 
-Simply open [Lovable](https://lovable.dev/projects/e94f16fd-ffdf-4e15-8e1c-4661ed0a6140) and click on Share -> Publish.
+* Use **Lovable.dev** for quick cloud deployment and live editing
+* For custom domains and full production setups, use **Netlify**, **Vercel**, or your preferred platform
 
-## I want to use a custom domain - is that possible?
+---
 
-We don't support custom domains (yet). If you want to deploy your project under your own domain then we recommend using Netlify. Visit our docs for more details: [Custom domains](https://docs.lovable.dev/tips-tricks/custom-domain/)
+## 👨‍💻 Author
+
+Built and maintained by [@rxymitchy](https://github.com/rxymitchy)
+
+---
+
+## 📄 License
+
+This project is open-source under the [MIT License](LICENSE).
+
+---
